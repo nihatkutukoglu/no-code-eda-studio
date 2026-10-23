@@ -1,0 +1,21 @@
+[theme]
+base = "light"
+primaryColor = "#2563eb"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f7f8fa"
+textColor = "#1f2430"
+linkColor = "#2563eb"
+borderColor = "#e6e8ee"
+font = "sans-serif"
+baseRadius = "0.6rem"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# Yüklenebilecek maksimum dosya boyutu (MB)
+maxUploadSize = 300
+
+[client]
+showErrorDetails = "full"
+toolbarMode = "minimal"

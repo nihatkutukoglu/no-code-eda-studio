@@ -1,0 +1,10 @@
+# Metin dosyalarında satır sonlarını normalize et (Windows/macOS/Linux uyumu)
+* text=auto eol=lf
+
+# İkili dosyalar dokunulmasın
+*.xlsx binary
+*.xls binary
+*.parquet binary
+*.png binary
+*.jpg binary
+*.ipynb binary

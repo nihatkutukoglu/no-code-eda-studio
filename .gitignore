@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Test / araçlar
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Kullanıcı verileri ve çıktılar (örnek veriler hariç)
+*.ipynb_checkpoints
+exports/
+output/
+!sample_data/
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+desktop.ini
